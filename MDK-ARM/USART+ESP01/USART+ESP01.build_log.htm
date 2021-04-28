@@ -1,0 +1,103 @@
+<html>
+<body>
+<pre>
+<h1>µVision Build Log</h1>
+<h2>Tool Versions:</h2>
+IDE-Version: µVision V5.31.0.0
+Copyright (C) 2020 ARM Ltd and ARM Germany GmbH. All rights reserved.
+License Information: User2 User2, awd, LIC=----
+ 
+Tool Versions:
+Toolchain:       MDK-Lite  Version: 5.31.0.0
+Toolchain Path:  C:\Keil_v5\ARM\ARMCC\Bin
+C Compiler:      Armcc.exe V5.06 update 6 (build 750)
+Assembler:       Armasm.exe V5.06 update 6 (build 750)
+Linker/Locator:  ArmLink.exe V5.06 update 6 (build 750)
+Library Manager: ArmAr.exe V5.06 update 6 (build 750)
+Hex Converter:   FromElf.exe V5.06 update 6 (build 750)
+CPU DLL:         SARMCM3.DLL V5.31.0.0
+Dialog DLL:      DCM.DLL V1.17.3.0
+Target DLL:      STLink\ST-LINKIII-KEIL_SWO.dll V3.0.7.0
+Dialog DLL:      TCM.DLL V1.46.0.0
+ 
+<h2>Project:</h2>
+D:\Parker\30.03.2022\MDK-ARM\USART+ESP01.uvprojx
+Project File Date:  07/28/2020
+
+<h2>Output:</h2>
+*** Using Compiler 'V5.06 update 6 (build 750)', folder: 'C:\Keil_v5\ARM\ARMCC\Bin'
+Rebuild target 'USART+ESP01'
+assembling startup_stm32f401xe.s...
+compiling stm32f4xx_it.c...
+compiling stm32f4xx_hal_msp.c...
+compiling stm32f4xx_hal_uart.c...
+compiling esp_01.c...
+../Inc/esp_01.h(112): warning:  #9-D: nested comment is not allowed
+  		 //*p1=0;
+../Inc/esp_01.h(244): warning:  #1-D: last line of file ends without a newline
+  	 
+..\Src\esp_01.c: 2 warnings, 0 errors
+compiling stm32f4xx_hal_flash.c...
+compiling stm32f4xx_hal_rcc.c...
+compiling stm32f4xx_hal_rcc_ex.c...
+compiling main.c...
+../Inc/esp_01.h(112): warning:  #9-D: nested comment is not allowed
+  		 //*p1=0;
+../Inc/esp_01.h(244): warning:  #1-D: last line of file ends without a newline
+  	 
+../Src/main.c(176): warning:  #177-D: variable "step"  was declared but never referenced
+  	uint8_t step=0;
+../Src/main.c(178): warning:  #177-D: variable "send"  was declared but never referenced
+  	char send[]="";
+../Src/main.c(188): warning:  #177-D: variable "foto"  was declared but never referenced
+  uint32_t foto = 0;
+../Src/main.c(1119): warning:  #177-D: variable "tok"  was declared but never referenced
+  			char *tok;
+../Src/main.c(1050): warning:  #177-D: variable "str"  was declared but never referenced
+  char str[] = "";
+../Src/main.c(1051): warning:  #177-D: variable "send"  was declared but never referenced
+  char send[]="";
+../Src/main.c: 8 warnings, 0 errors
+compiling stm32f4xx_hal_flash_ex.c...
+compiling stm32f4xx_hal_tim_ex.c...
+compiling stm32f4xx_hal_tim.c...
+compiling stm32f4xx_hal_flash_ramfunc.c...
+compiling stm32f4xx_hal_dma.c...
+compiling stm32f4xx_hal_exti.c...
+compiling stm32f4xx_hal_pwr_ex.c...
+compiling stm32f4xx_hal_cortex.c...
+compiling stm32f4xx_hal_gpio.c...
+compiling system_stm32f4xx.c...
+compiling stm32f4xx_hal.c...
+compiling stm32f4xx_hal_pwr.c...
+compiling stm32f4xx_hal_dma_ex.c...
+linking...
+Program Size: Code=9360 RO-data=1328 RW-data=48 ZI-data=2504  
+FromELF: creating hex file...
+"USART+ESP01\USART+ESP01.axf" - 0 Error(s), 10 Warning(s).
+
+<h2>Software Packages used:</h2>
+
+Package Vendor: ARM
+                http://www.keil.com/pack/ARM.CMSIS.5.7.0.pack
+                ARM.CMSIS.5.7.0
+                CMSIS (Cortex Microcontroller Software Interface Standard)
+   * Component: CORE Version: 5.4.0
+
+Package Vendor: Keil
+                http://www.keil.com/pack/Keil.STM32F4xx_DFP.2.14.0.pack
+                Keil.STM32F4xx_DFP.2.14.0
+                STMicroelectronics STM32F4 Series Device Support, Drivers and Examples
+
+<h2>Collection of Component include folders:</h2>
+  .\RTE\_USART_ESP01
+  C:\Users\User2\AppData\Local\Arm\Packs\ARM\CMSIS\5.7.0\CMSIS\Core\Include
+  C:\Users\User2\AppData\Local\Arm\Packs\Keil\STM32F4xx_DFP\2.14.0\Drivers\CMSIS\Device\ST\STM32F4xx\Include
+
+<h2>Collection of Component Files used:</h2>
+
+   * Component: ARM::CMSIS:CORE:5.4.0
+Build Time Elapsed:  00:00:06
+</pre>
+</body>
+</html>
