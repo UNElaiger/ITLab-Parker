@@ -71,8 +71,8 @@ void setup() {
     }
   }
 
-    Ps3.begin("c0:14:3d:29:43:24"); //домашний
-    //Ps3.begin("30:5a:3a:0f:6b:c7");  
+    //Ps3.begin("c0:14:3d:29:43:24"); //домашний
+    Ps3.begin("30:5a:3a:0f:6b:c7");  
     //Serial.println("Ready.");
  
 }

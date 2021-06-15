@@ -72,22 +72,28 @@ void Error_Handler(void);
 #define USART_RX_GPIO_Port GPIOA
 #define LD2_Pin GPIO_PIN_5
 #define LD2_GPIO_Port GPIOA
-#define ENA2PWM_Pin GPIO_PIN_6
-#define ENA2PWM_GPIO_Port GPIOA
 #define INA_Pin GPIO_PIN_5
 #define INA_GPIO_Port GPIOC
+#define E2_Pin GPIO_PIN_10
+#define E2_GPIO_Port GPIOB
 #define LDPIN_Pin GPIO_PIN_14
 #define LDPIN_GPIO_Port GPIOB
 #define INB_Pin GPIO_PIN_6
 #define INB_GPIO_Port GPIOC
 #define ENA1PWM_Pin GPIO_PIN_8
 #define ENA1PWM_GPIO_Port GPIOC
+#define H2_Pin GPIO_PIN_8
+#define H2_GPIO_Port GPIOA
 #define TMS_Pin GPIO_PIN_13
 #define TMS_GPIO_Port GPIOA
 #define TCK_Pin GPIO_PIN_14
 #define TCK_GPIO_Port GPIOA
 #define SWO_Pin GPIO_PIN_3
 #define SWO_GPIO_Port GPIOB
+#define E1_Pin GPIO_PIN_4
+#define E1_GPIO_Port GPIOB
+#define H1_Pin GPIO_PIN_5
+#define H1_GPIO_Port GPIOB
 /* USER CODE BEGIN Private defines */
 
 /* USER CODE END Private defines */
